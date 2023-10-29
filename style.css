@@ -1,0 +1,172 @@
+body{
+    margin: 0;
+}
+
+.top-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #227C70;
+    overflow: hidden;
+}
+
+.top-nav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    
+
+}
+
+/*.vl{
+    border-left: 2px solid white;
+    height: 30px;
+}*/
+
+.top-nav a:hover {
+    background-color: #88A47C;
+}
+
+
+.top-nav a:active {
+    background-color: #678983;
+}
+
+/*.top-nav a:first-child {
+    font-size: 30px;
+    padding: 12px 30px;
+}*/
+
+.news1{
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: repeat(24, 50px);
+    gap:;
+    margin-top: 50px;
+    /*margin-left: 20px;*/
+}
+
+.news1 a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 900;
+}
+
+.latest{
+    background-color: #227C70;
+    padding: 20px 20px;
+    color: white;
+    font-weight: 400;
+}
+
+.pic1{
+    grid-row: span 5;
+    overflow: hidden;
+    margin-bottom: 0;
+}
+
+.message1{
+    margin-top: 0;
+    grid-row: span 3;
+    background-color: red;
+    color: white;
+    padding: 10px;
+}
+
+.message1 a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+
+.message2{
+    margin-top: 0;
+    grid-row: span 2;
+    padding-top: 10px;
+    font-size: 25px;
+}
+
+.message3{
+    margin-top: 0;
+    grid-row: span 2;
+    padding-top: 10px;
+    font-size: 25px;
+}
+
+.message4{
+    margin-top: 0;
+    grid-row: span 2;
+    padding-top: 10px;
+    font-size: 25px;
+}
+
+.message5{
+    margin-top: 0;
+    grid-row: span 2;
+    padding-top: 10px;
+    font-size: 25px;
+}
+
+.message6{
+    margin-top: 0;
+    grid-row: span 2;
+    padding-top: 10px;
+    font-size: 25px;
+}
+
+.message7{
+    margin-top: 0;
+    grid-row: span 2;
+    padding-top: 10px;
+    font-size: 25px;
+}
+
+.message8{
+    margin-top: 0;
+    grid-row: span 2;
+    padding-top: 10px;
+    font-size: 25px;
+}
+
+
+.flex-container{
+    display: flex;
+    flex: 1;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+
+
+@media (max-width: 575px){
+    .top-nav{
+        display: flex;
+       
+    }
+
+}
+
+
+@media (max-width: 768px){
+
+    .top-nav{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+}
+
+@media (max-width: 992px){
+    .top-nav{
+        display: flex;
+        flex-wrap: wrap;
+    
+}
+
+}
